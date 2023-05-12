@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    bootstrap-servers: pkc-4nxnd.asia-east2.gcp.confluent.cloud:9092
+    properties:
+      group.id: test
+      security:
+        protocol: SASL_SSL
+      sasl:
+        mechanism: PLAIN
+        jaas:
+          config: org.apache.kafka.common.security.plain.PlainLoginModule required username='OAXN76QDFA3LVXZZ' password='0fHjDq4LPvkP8qHmAry583MU6E+/KsatCIFQtSu8/XWUq5gzDFf5eDwrHiN5mRJp';
